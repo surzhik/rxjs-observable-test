@@ -1,0 +1,60 @@
+
+.boxInfo {
+  margin-bottom: 15px;
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: all ease-in-out 300ms;
+}
+
+.boxInfo:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boxInfo.nightMode {
+  background: #111;
+}
+
+.boxInfo.nightMode:hover {
+  background: #222;
+}
+
+.boxInfo > div:last-child > div {
+  height: 55px;
+}
+
+.valueHolder span {
+  font-size: 50px;
+  line-height: 45px;
+  font-family: 'Open Sans', sans-serif;
+  transition: all ease-in-out 300ms;
+}
+
+.color_1 {
+  color: #556270;
+}
+
+.color_2 {
+  color: #00a0b0;
+}
+
+.color_3 {
+  color: #4ecdc4;
+}
+
+.nightMode .valueHolder span {
+  color: #eb6841;
+}
+
+.chartHolder {
+  overflow: hidden;
+}
+
+.chartHolder .chart {
+  margin-left: -2px;
+}
+
+.boxInfo:hover .valueHolder span {
+  color: #eb6841;
+  text-shadow: 0 0 5px rgba(235, 104, 65, 0.5);
+}

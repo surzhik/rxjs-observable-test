@@ -1,0 +1,35 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+.footerHolder {
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+}
+
+.link {
+  margin-left: 10px;
+}
+
+.link,
+.link:active,
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #000;
+}

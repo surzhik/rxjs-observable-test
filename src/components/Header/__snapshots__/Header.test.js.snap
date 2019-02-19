@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header container Header structure renders children correctly 1`] = `
+<div
+  className="headerHolder"
+>
+  <div
+    className="switchHolder"
+  >
+    <button
+      aria-checked={false}
+      checked={false}
+      className="rc-switch"
+      defaultChecked={false}
+      onChange={[Function]}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      role="switch"
+      type="button"
+    >
+      <span
+        className="rc-switch-inner"
+      />
+    </button>
+  </div>
+</div>
+`;

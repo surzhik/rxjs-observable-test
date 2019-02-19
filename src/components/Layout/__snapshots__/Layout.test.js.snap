@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders children correctly 1`] = `
+<div>
+  <div
+    className="headerHolder"
+  >
+    <div
+      className="switchHolder"
+    >
+      <button
+        aria-checked={false}
+        checked={false}
+        className="rc-switch"
+        defaultChecked={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        role="switch"
+        type="button"
+      >
+        <span
+          className="rc-switch-inner"
+        />
+      </button>
+    </div>
+  </div>
+  <div />
+  <div />
+  <div />
+  <div
+    className="footerHolder"
+  >
+    <div
+      className="container"
+    >
+      © 2019
+      <a
+        className="link"
+        href="https://github.com/surzhik/rxjs-observable-test"
+        onClick={[Function]}
+      >
+        Ivan Turuk
+      </a>
+    </div>
+  </div>
+</div>
+`;
