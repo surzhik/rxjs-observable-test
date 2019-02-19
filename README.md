@@ -32,3 +32,9 @@ temperature.on('data', data => { // data = '24.2' })
 - all your RX business logic must be inside a UNIQUE observable
 - provide a basic UI in react
 - provide unit tests and some basic component tests
+
+____________
+ 
+"yarn test" for jest testing,
+"yarn start" for run app,
+"yarn lint" for lint testing,
